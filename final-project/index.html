@@ -3,189 +3,222 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Three Star Media</title>
+    <title>The Star Media</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
 <header>
-    <div class="header-container"></div>
+    <div class="wrapper header-container">
 
-    <img class="logo" src="images/logo (1).png" alt="Three Star Media Logo">
+        <img class="logo" src="images/logo.png" alt="The Star Media Logo">
 
-    <nav>
-        <ul class="nav-list">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
 
-    <form class="search">
-        <input type="text" placeholder="Search">
-        <button type="submit">Search</button>
-    </form>
-    </div>
+        <form class="search">
+            <input type="search" placeholder="Search">
+            <button type="submit">Search</button>
+        </form>
+        </div>
+
 </header>
+
 <main>
-    <section id="home">
-        <img src="images/mobile-mockup (1).png" alt="Main banner">
-        <div class="home-text">
-            <h1>Welcome to Three Star Media</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus quos odio facere dolorum maiores accusantium labore sapiente consequuntur soluta, est voluptatum minus laboriosam, consectetur perspiciatis error exercitationem impedit vitae unde.</p>
-        </p>
-        <a class="button" href="#contact">Contact Us </a>
-        </div>
-    </section>
 
-    <section id="about">
-        <img src="images/main-banner (1).jpg" alt="About us">
+   
+
+<section class="hero" id="home">
+    <div class="wrapper hero-container">
+        <div class="hero-text">
+            <h1>Welcome to The Star Media</h1>
+            <p>Your one-stop solution for all your media needs.</p>
+            <a class="button" href="#contact">Connect With Us</a>
+
+            </div>
+            </div>
+</section>
+
+
+
+<section class="about" id="about">
+    <div class="wrapper about-container">
+        <img src="images/about-us.jpg" alt="Creative media team working together">
         <div class="about-text">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolorL sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+            <h2>About Us</h2>
+            <p>The Star Media is a leading media company that specializes in delivering high-quality content and innovative solutions to our clients. Our team of experts is dedicated to helping you achieve your goals through creative strategies and cutting-edge technology.</p>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptas dolorem veniam facere et molestias magni optio, aperiam laboriosam reprehenderit maiores tempora sunt sequi obcaecati, eveniet nesciunt odit! Error, pariatur..</p>
         </div>
+    </div>
+
     </section>
 
     <section class="services" id="services">
-
+    <div class="wrapper">
         <h2>Our Services</h2>
-
         <div class="service-list">
 
+            <!-- Digital transformation -->
             <article class="service-item">
-                <img src="images/print (1).jpg" alt="Digital Transformation">
+                <img src="images/digital.jpg" alt="Laptop with digital transformation concept">
                 <h3>Digital Transformation</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                <p>We help businesses embrace digital transformation by leveraging the latest technologies and strategies to enhance their operations and customer experiences.</p>
 
                 <a class="button" href="#">Digital Plans</a>
             </article>
 
-            <article class="service">
+            <!-- Marketing -->
+            <article class="service-item">
+                <img src="images/marketing.jpg" alt="Marketing analytics">
+                <h3>Marketing Solutions</h3>
+                <p>We develop comprehensive marketing strategies to help your business reach its target audience and drive growth.</p>
 
-                <img src="images/video (1).jpg" alt="Marketing">
-                <h3>Marketing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                
                 <a class="button" href="#">Marketing Plans</a>
+            </article>
 
-                <article class="service">
-
-                <img src="images/web (1).jpg" alt="Video Production">
+            <!-- Video production -->
+            <article class="service-item">
+                <img src="images/video.jpg" alt="Video production">
                 <h3>Video Production</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                <p>Our team of skilled videographers and editors create high-quality videos that effectively communicate your brand's message.</p>
+
                 <a class="button" href="#">Video Plans</a>
-                </article>
+            </article>
 
-                <article class="service">
-                <img src="images/desktop-mockup (1).png" alt="Web Development">
+            <!-- Web development -->
+            <article class="service-item">
+                <img src="images/web.jpg" alt="Web development">
                 <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                <p>We design and develop responsive, user-friendly websites that help your business establish a strong online presence.</p>
+
                 <a class="button" href="#">Web Plans</a>
-                </article>
+            </article>
 
-                <article class="service">
-                    <img src="images/logo (1).png" alt="Print">
-                    <h3>Print</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                    <a class="button" href="#">Print Plans</a>
-                    </article>
+            <!-- Print -->
+            <article class="service-item">
+                <img src="images/print.jpg" alt="Print media">
+                <h3>Print Media</h3>
+                <p>We offer a range of print media services, including brochures, flyers, and business cards, to help you effectively promote your brand.</p>
 
+                <a class="button" href="#">Print Plans</a>
+            </article>
 
 
         </div>
+    </div>
     </section>
 
-    <section class="vision">
-        <img src="images/john (1).jpg" alt="Vision">
-        <div class="vision-text">
-            <h2>Our Vision</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+        
+        <section class="vision">
+            <div class="wrapper vision-container">
+            <h2>Our Vision</h2>
+            <p>At The Star Media, our vision is to be a leading media company that empowers businesses to thrive in the digital age. We strive to deliver innovative solutions and exceptional services that help our clients achieve their goals and make a lasting impact in their industries.</p>
             <a class="button" href="#">Learn More</a>
             </div>
-    </section>
+        </section>
 
-    <section class="team" id="team">
-        <h2>Meet Our Team</h2>
-        <article class="member">
-            <img src="images/digital (1).jpg" alt="John Doe">
-            <div class="member-info">
-                <h3>John Doe</h3>
-                <p>CEO</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+        
+        <section class="team" id="team">
+            <div class="wrapper">
+                <h2>Meet Our Team</h2>
+
+                <div class="team-list">
+
+                    <article class="team-member">
+                        <img src="images/john.jpg" alt="John Doe">
+                        <div class="member-info">
+                            <h3>John Doe</h3>
+                            <h4>CEO & Founder</h4>
+                            <p>John is the visionary behind The Star Media, bringing extensive experience in the industry to drive our success.</p>
+                        </div>
+                    </article>
+
+                    <article class="team-member">
+                        <img src="images/bob.jpg" alt="Bob Rite">
+                        <div class="member-info">
+                            <h3>Bob Rite</h3>
+                            <h4>CFO and Co-Owner</h4>
+                            <p>Bob is responsible for our marketing strategies and helps us reach new audiences.</p>
+                        </div>
+                    </article>
+                    </div>
+                    </div>
+        </section>
+
+       
+        <section class="contact" id="contact">
+            <div class="wrapper">
+                <h2>Contact Us</h2>
+
+                <div class="contact-content">
+
+                    <div class="message">
+                        <h3>Send us a message</h3>
+                        <form action="#" method="post">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+
+            <!-- Location -->
+            <div class="location">
+                <h3>Location</h3>
+
+                <p>
+                    <strong>Algonquin College - Ottawa Campus</strong><br>
+                    1385 Woodroffe Ave, Ottawa, ON K2G 1V8
+                </p>
+
+                <iframe width="100%" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB2NIWI3Tv9iDPrlnowr_0ZqZWoAQydKJU&q=Algonquin%20College%20-%20Ottawa%20Campus%2C%20Woodroffe%20Avenue%2C%20Ottawa%2C%20ON%2C%20Canada&maptype=roadmap" allowfullscreen></iframe>
             </div>
-        </article>
 
-        <article class="member">
-            <img src="images/vision (1).jpg" alt="Bob Rite">
-            <div class="member-info">
-                <h3>Bob Rite</h3>
-                <p>CFO</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-            </div>
-        </article>
-    </section>
-</article>
-
-<section class="contact" id="contact">
-    <h2>Contact Us</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-
-    <div class="contact-info">
-
-        <div class="message">
-
-            <h3>Send us a message</h3>
-            <form action="#" method="post">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send</button>
-                </form>
-
-                <div class="location">
-                    <h3>Our Location</h3>
-                    <img src="images/location.png" alt="Location">
-                </div>
-        </div>
-    </div>
-
-    <div class="hours">
-        <h3>Business Hours</h3>
-
-        <table>
-
-            <tr>
-                <th>Day</th>
-                <th>Hours</th>
-
-                <td>Monday - Friday</td>
-                <td>9AM - 5PM</td>
-                </tr>
+            <div class="hours">
+                <h3>Hours of operation</h3>
 
                 <table>
-                    <tr>
-                        <td>Saturday</td>
-                        <td>10AM - 2PM</td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>Days</th>
+                            <th>Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday - Friday</td>
+                            <td>9 AM - 6 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday - Sunday</td>
+                            <td>CLOSED</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+                </div>
+            </div>
+        </section>
 
-                    <tr>
-                        <td>Sunday</td>
-                        <td>Closed</td>
-                    </tr>
-        </table>
-    </div>
 
-</section>
-</main>
-</body>
+    </main>
 
-<footer>
-    <p>&copy; 2026 Three Star Media. All rights reserved.</p>
-
-    <p>All images are taken from Unplash</p>
-
+    <footer>
+        <div class="wrapper">
+            <p>&copy; Copyright Three Stars Media, 2026. All rights reserved.</p>
+            <p>All images are taken from Unsplash.</p>
+        </div>
+    </footer>
 </html>
